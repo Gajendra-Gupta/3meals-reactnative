@@ -1,0 +1,16 @@
+Invalid Parameter
+
+This Email is already used
+
+Congratulations, your are registered successfully. Please check your email and verify email address, you can access your account when email is verified.
+
+Email not verified, please verify your email to access your account.
+
+Invalid username or password!
+
+Your account is not approved by admin.Please contact to administrator.
+
+Congratulations, your are registered successfully. Please check your email and verify email address, you can access your account when email is verified and admin has approved it.
+
+
+

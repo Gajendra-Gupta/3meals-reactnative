@@ -1,0 +1,1 @@
+Icons took from https://www.flaticon.com and https://www.freepik.com

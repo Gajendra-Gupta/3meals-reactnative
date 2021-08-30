@@ -1,0 +1,24 @@
+react-native bundle --dev false --platform android --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android.bundle --assets-dest ./android/app/src/main/res 
+
+
+chmod 777 gradlew  
+
+cd android
+./gradlew assembleDebug
+
+
+For IOS
+
+
+react-native bundle --dev false --entry-file index.js --bundle-output ios/main.jsbundle --platform ios
+
+File : RCTUIImageViewAnimated.m
+
+- (void)displayLayer:(CALayer *)layer
+{
+  if (_currentFrame) {
+    layer.contentsScale = self.animatedImageScale;
+    layer.contents = (__bridge id)_currentFrame.CGImage;
+  }
+    [super displayLayer:layer];
+}
